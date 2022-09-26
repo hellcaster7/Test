@@ -581,7 +581,7 @@ body {
 
 .inner {
     display: flex;
-    align-items: center;
+    align-items: center; 
     flex-direction: column;
     /* flex-wrap: wrap; */
     padding-bottom: 60px;
@@ -589,8 +589,9 @@ body {
 
 .inner2 {
     display: flex;
-    align-items: flex-end;
+     align-items: flex-end; 
     flex-wrap: wrap;
+    margin-bottom: 50px;
 }
 
 @media (max-width: 1650px) {
