@@ -318,8 +318,8 @@ body {
     background-repeat: no-repeat;
     background-position: top right;
     background-size: cover;
-    min-height: 100vh
-    /* height: auto; */
+    min-height: 100vh;
+    height: auto; 
     width: 100vw;
     padding-top: 70px;
     
@@ -710,10 +710,10 @@ body {
         margin-right: 0px;
     }
 
-    .header__item,
+    /* .header__item,
     .header__list {
         /* display: none; */
-    }
+    
     .header__list li:hover>ul {
         display: none;
     }
