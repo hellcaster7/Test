@@ -777,9 +777,17 @@ body {
         height: 110px;
     }
     .promo{
+        
+        background-image: url(../img/unsplash_smgTvepind4.png);
         background-size: contain;
+        background-position: top top;
+        height: auto;
     }
-    .bgg{background: linear-gradient(360deg, #2B2B2A 0%, #2B2B2A 65%, rgb(255, 255, 255, 0.4) 100%);}
+    .bgg{
+        background: linear-gradient(360deg, #2B2B2A 0%, #2B2B2A 65%, rgb(255, 255, 255, 0.4) 100%); 
+        /* background: linear-gradient(57deg,  #2B2B2A 51%, rgb(255, 255, 255, .2) 100%);  */
+
+    }
     .sign a{
         background-color: #ffffff;
         color: #000;
